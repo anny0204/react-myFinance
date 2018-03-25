@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main_panel {
+    max-width: 960px;
+    width: 100%;
+    margin: 8px auto;
+}
+
+.operation_btn {
+    width: 100%;
+}
+
+th {
+    font-size: 16px;
+    text-align: center;
+}
+
+.money {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.sum {
+    color: green;
+    font-size: 20px;
+}

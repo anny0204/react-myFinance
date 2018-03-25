@@ -1,0 +1,18 @@
+.textarea {
+    width: 100%;
+    resize: none;
+}
+
+.row {
+    margin: 5px;
+}
+
+.btn_holder {
+    text-align: center;
+}
+
+.save_btn {
+    width: 160px;
+    margin: 5px;
+    font-size: 18px;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "expenses-app",
+  "version": "1.0.0",
+  "description": "Accounting for receipts and expenses",
+  "main": "main.js",
+  "scripts": {
+    "devserver": "webpack-dev-server --hot --debug --inline --colors --content-base public --port 8080 --host 127.0.0.1"
+  },
+  "author": "Anna Kovalenko",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^1.12.4",
+    "react": "^0.14.x",
+    "react-bootstrap": "^0.30.x",
+    "react-dom": "^0.14.x"
+  },
+  "devDependencies": {
+    "babel": "5.x",
+    "babel-loader": "5.x",
+    "css-loader": "^0.12.1",
+    "file-loader": "0.6.x",
+    "json-loader": "0.5.x",
+    "react-hot-loader": "0.5.x",
+    "style-loader": "^0.12.4",
+    "url-loader": "0.6.x",
+    "webpack": "1.12.x",
+    "webpack-dev-server": "1.12.x"
+  }
+}
